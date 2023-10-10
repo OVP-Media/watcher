@@ -1,0 +1,6 @@
+FROM gradle:8-jdk-jammy
+
+COPY . /opt/app/sources
+WORKDIR /opt/app/sources
+
+CMD ["gradle", "test"]

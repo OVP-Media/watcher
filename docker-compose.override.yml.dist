@@ -1,0 +1,4 @@
+services:
+  test:
+    volumes:
+      - "$HOME/.gradle-dc:/home/gradle/.gradle"
